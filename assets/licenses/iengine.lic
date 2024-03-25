@@ -1,0 +1,46 @@
+{
+    "version": "2.1",
+    "contract": {
+        "customer": "DynamicMobility_first eval license",
+        "expiration": {
+            "day": 25,
+            "month": 5,
+            "year": 2024
+        },
+        "hwids": [
+            "AyBd+97XEr16qMID"
+        ],
+        "products": [
+            "iface"
+        ],
+        "idkit": {
+            "database_size": 0,
+            "max_client_connections": 0
+        },
+        "dot": {
+            "evaluation": true,
+            "mobile": {
+                "face": {
+                    "enabled": true,
+                    "features": {
+                        "matching": true,
+                        "passiveLiveness": true
+                    }
+                },
+                "document": {
+                    "enabled": true
+                },
+                "nfc": {
+                    "enabled": true
+                },
+                "faceLite": {
+                    "enabled": true
+                },
+                "features": {
+                    "realTimeTransactionReportingEnabled": true
+                }
+            }
+        }
+    },
+    "contract_signature": "b/yqbNPtLbaG3y8FQEC0b5ABdkVaNoxbmOFUvSidxjoAANxMsVDV6iSFNOrKALPk9Dp8fdZpKtoXVFHFu/DuKeu6cEBPO79NFGVBt8GLgd9FmGoYJGJAC+2HCQ9UaDUJ4PVqiydewn+L5Tf6oEGkY2TookGrI09jLZcY8qcv3qc="
+}

@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
 
     final ByteData licenseByteData =
-        await DefaultAssetBundle.of(context).load('assets/dot_license.lic');
+        await DefaultAssetBundle.of(context).load('assets/licenses/iengine.lic');
     await DotSdk.instance.initialize(DotSdkConfiguration(
         licenseBytes: licenseByteData.buffer.asUint8List(),
         libraries: [DotDocumentLibrary(), DotFaceLiteLibrary()]));
@@ -51,6 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
             future: _initDotSdk,
             builder: (context, snapshot) {
               if (snapshot.hasError) {
+                print(snapshot.error);
                 return createLicenseError();
               } else if (snapshot.connectionState == ConnectionState.done) {
                 return createComponentList(context);

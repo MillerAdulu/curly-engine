@@ -8,19 +8,32 @@ PODS:
     - dot-core (= 7.2.1)
     - dot-protobuf (= 1.5.0)
     - sam (= 2.35.2)
+  - dot-face-commons (7.2.1)
+  - dot-face-lite (7.2.1):
+    - dot-camera (= 7.2.1)
+    - dot-capture (= 7.2.1)
+    - dot-core (= 7.2.1)
+    - dot-face-commons (= 7.2.1)
+    - dot-protobuf (= 1.5.0)
+    - sam-face (= 1.35.2)
   - dot-protobuf (1.5.0)
-  - dot_core_ios (0.1.0):
+  - dot_core_ios (0.2.1):
     - dot-core (= 7.2.1)
     - Flutter
-  - dot_document_ios (0.1.0):
+  - dot_document_ios (0.2.1):
     - dot-document (= 7.2.1)
+    - Flutter
+  - dot_face_lite_ios (0.2.1):
+    - dot-face-lite (= 7.2.1)
     - Flutter
   - Flutter (1.0.0)
   - sam (2.35.2)
+  - sam-face (1.35.2)
 
 DEPENDENCIES:
   - dot_core_ios (from `.symlinks/plugins/dot_core_ios/ios`)
   - dot_document_ios (from `.symlinks/plugins/dot_document_ios/ios`)
+  - dot_face_lite_ios (from `.symlinks/plugins/dot_face_lite_ios/ios`)
   - Flutter (from `Flutter`)
 
 SPEC REPOS:
@@ -29,14 +42,19 @@ SPEC REPOS:
     - dot-capture
     - dot-core
     - dot-document
+    - dot-face-commons
+    - dot-face-lite
     - dot-protobuf
     - sam
+    - sam-face
 
 EXTERNAL SOURCES:
   dot_core_ios:
     :path: ".symlinks/plugins/dot_core_ios/ios"
   dot_document_ios:
     :path: ".symlinks/plugins/dot_document_ios/ios"
+  dot_face_lite_ios:
+    :path: ".symlinks/plugins/dot_face_lite_ios/ios"
   Flutter:
     :path: Flutter
 
@@ -45,12 +63,16 @@ SPEC CHECKSUMS:
   dot-capture: 2733445fcf14e037b904d570147ccc894f136943
   dot-core: 291bba77c30d523d26198563fe072e1b2a2a9a24
   dot-document: b7f2566ea7a4acaffafbd08595f7fd38bfa6c292
+  dot-face-commons: 07c0100069b7bf5f4922247c5e937dd1d5a349c1
+  dot-face-lite: 7dad0871fdd963c142503eb76987b9e91099ef77
   dot-protobuf: 023e0a2cf32c6733768f86eedd2179c64abc6398
-  dot_core_ios: 39543e7a988525f0d15f15741f4d931d27a48318
-  dot_document_ios: c1bdd956df09b5fe2a5771773e893366a7626c7a
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  dot_core_ios: 3d54e5347167257544d240cbec72722cd82e1f71
+  dot_document_ios: eb18399f1976c1f7c31f3b2dd65a7c6f8a323d4a
+  dot_face_lite_ios: 4a3ba1fb0d02a965dfdc89a4c730e51f1e5ddfdc
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   sam: 5c7e5f0787c3418716ca6e1788973b8b5949311f
+  sam-face: bc0a59919eacffe29a34313dd74d5464a0a6a62f
 
-PODFILE CHECKSUM: 162ac26ca64d5db1d19d40ad454d8666b3b40138
+PODFILE CHECKSUM: ecfffc65c541ef85c947343b0052a2e1d02c8414
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2

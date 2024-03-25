@@ -16,7 +16,7 @@ android {
     compileSdk flutter.compileSdkVersion
 
     defaultConfig {
-        applicationId 'com.innovatrics.dot.flutter.example'
+        applicationId 'tz.co.ubx.app-miller-dev'
         minSdk 21
         targetSdk flutter.targetSdkVersion
         versionCode 1

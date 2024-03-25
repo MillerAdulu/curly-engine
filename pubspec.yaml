@@ -1,6 +1,7 @@
 name: dot_flutter_sdk_example
 description: Demonstrates how to use the DOT Flutter SDK.
 publish_to: none
+version: 1.0.00+1000
 
 environment:
   sdk: ">=3.1.0 <4.0.0"
@@ -9,7 +10,7 @@ environment:
 flutter:
   uses-material-design: true
   assets:
-    - assets/
+    - assets/licenses/
 
 dependencies:
   flutter:
